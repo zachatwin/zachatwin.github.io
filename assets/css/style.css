@@ -500,6 +500,14 @@ h6 {
   #hero h2 {
     font-size: 28px;
   }
+  #hero #front_logo{
+    max-width: 25%;
+  }
+}
+@media (max-width: 425px) {  
+  #hero #front_logo{
+    max-width: 30%;
+  }
 }
 
 @media (min-width: 1024px) {
