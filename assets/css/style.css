@@ -503,6 +503,9 @@ h6 {
   #hero #front_logo{
     max-width: 25%;
   }
+  #hero .carousel-content{
+    margin-top: 60px;
+  }
 }
 @media (max-width: 425px) {  
   #hero #front_logo{
