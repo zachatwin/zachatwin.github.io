@@ -188,7 +188,13 @@
         menuIsotope.arrange({
           filter: this.getAttribute('data-filter')
         });
-
+        let menuactive= select('.section-title.title-menu.titleshow');
+        if(menuactive) menuactive.classList.remove('titleshow');
+        let sDataFilter = this.getAttribute('data-filter');
+        if (sDataFilter != '*') {
+          let menuactive2= select('.section-title.title-menu' + sDataFilter);
+          if(menuactive2) menuactive2.classList.add('titleshow');
+        }        
       }, true);
     }
 
