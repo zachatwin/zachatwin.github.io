@@ -136,8 +136,8 @@
         <div class="row">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="menu-flters">
-              <li data-filter="*" class="filter-active">Mostrar todo</li>            
-              <li data-filter=".filter-salads">Ensaladas</li>
+              <!-- <li data-filter="*" class="filter-active">Mostrar todo</li>             -->
+              <li data-filter=".filter-salads" id="init-filter" class="filter-active">Ensaladas</li>
               <li data-filter=".filter-sandwich">Bocatas</li>
               <li data-filter=".filter-toast">Tostas</li>
               <li data-filter=".filter-plates">Platos Calientes</li>              
@@ -155,7 +155,7 @@
             <div class="section-title title-menu filter-salads"><h4>No te hagas ensaladas en la cabeza. <span>Disfrútalas!</span></h4></div>
             <div class="section-title title-menu filter-sandwich"><h4>Te como a <span>Bocatas</span></h4></div>
             <div class="section-title title-menu filter-toast"><h4>A <span>Tostas</span> con la Vida!</h4></div>
-            <div class="section-title title-menu filter-plates"><h4>Platos <span>Calientes</span></h4></div>
+            <div class="section-title title-menu filter-plates"><h4>Para los más fríos, platos <span>Calientes</span></h4></div>
             <div class="section-title title-menu filter-detox"><h4>Famara <span>Detox</span></h4></div>
             <div class="section-title title-menu filter-milk"><h4><span>Milkshakes</span> "Gofio Power"</h4></div>
             <div class="section-title title-menu filter-smoot"><h4><span>Smoothies</span> Lovers</h4></div>
@@ -462,8 +462,47 @@
           <div class="col-lg-12 menu-item filter-drinks">
             <h4>Cervezas</h4>
           </div>
+          <div class="col-lg-6 menu-item filter-drinks">
+            <div class="menu-content"><span class="titlemenu">ALHAMBRA ESPECIAL</span><span>1,50€</span></div>
+          </div>
+          <div class="col-lg-6 menu-item filter-drinks">
+            <div class="menu-content"><span class="titlemenu">ESTRELLA GALICIA</span><span>1,50€</span></div>
+          </div>
+          <div class="col-lg-6 menu-item filter-drinks">
+            <div class="menu-content"><span class="titlemenu">SAN MIGUEL 0,0 TOSTADA</span><span>2,50€</span></div>
+          </div>
+          <div class="col-lg-6 menu-item filter-drinks">
+            <div class="menu-content"><span class="titlemenu">ALHAMBRA SIN GLUTEN</span><span>2,50€</span></div>
+          </div>
+          <div class="col-lg-6 menu-item filter-drinks">
+            <div class="menu-content"><span class="titlemenu">MAHOU TOSTADA</span><span>2,50€</span></div>
+          </div>
+          <div class="col-lg-6 menu-item filter-drinks">
+            <div class="menu-content"><span class="titlemenu">1906</span><span>2,50€</span></div>
+          </div>
+          <div class="col-lg-6 menu-item filter-drinks">
+            <div class="menu-content"><span class="titlemenu">ECOLÓGICA</span><span>3€</span></div>
+          </div>
           <div class="col-lg-12 menu-item menu-top-margin filter-drinks">
             <h4>Cervezas Canarias</h4>
+          </div>
+          <div class="col-lg-6 menu-item filter-drinks">
+            <div class="menu-content"><span class="titlemenu">MALPEIS</span><span>2,60€</span></div>
+          </div>
+          <div class="col-lg-6 menu-item filter-drinks">
+            <div class="menu-content"><span class="titlemenu">NAOS</span><span>2,60€</span></div>
+          </div>
+          <div class="col-lg-6 menu-item filter-drinks">
+            <div class="menu-content"><span class="titlemenu">DORADA ESPECIAL</span><span>1,80€</span></div>
+          </div>
+          <div class="col-lg-6 menu-item filter-drinks">
+            <div class="menu-content"><span class="titlemenu">TROPICAL</span><span>1,50€</span></div>
+          </div>
+          <div class="col-lg-6 menu-item filter-drinks">
+            <div class="menu-content"><span class="titlemenu">TROPICAL CON LIMÓN</span><span>1,80€</span></div>
+          </div>
+          <div class="col-lg-6 menu-item filter-drinks">
+            <div class="menu-content"><span class="titlemenu">ECOLÓGICA</span><span>3€</span></div>
           </div>
           <div class="col-lg-12 menu-item menu-top-margin filter-drinks">
             <h4>Vino Tinto</h4>
@@ -567,17 +606,119 @@
           <div  class="col-lg-12 menu-top-margin menu-item filter-drinks">
             <h4>Ginebras</h4>
           </div>
+          <div class="col-lg-6 menu-item filter-drinks">
+            <div class="menu-content"><span class="titlemenu">NORDÉS</span><span>8€</span></div>
+          </div>
+          <div class="col-lg-6 menu-item filter-drinks">
+            <div class="menu-content"><span class="titlemenu">TANQUERAY</span><span>8€</span></div>
+          </div>
+          <div class="col-lg-6 menu-item filter-drinks">
+            <div class="menu-content"><span class="titlemenu">BEEFEATER</span><span>6€</span></div>
+          </div>
+          <div class="col-lg-6 menu-item filter-drinks">
+            <div class="menu-content"><span class="titlemenu">BOMBAY SAPPHIRE</span><span>7€</span></div>
+          </div>
+          <div class="col-lg-6 menu-item filter-drinks">
+            <div class="menu-content"><span class="titlemenu">GORDONS</span><span>7€</span></div>
+          </div>
+          <div class="col-lg-6 menu-item filter-drinks">
+            <div class="menu-content"><span class="titlemenu">HENDRICK'S</span><span>8€</span></div>
+          </div>
+          <div class="col-lg-6 menu-item filter-drinks">
+            <div class="menu-content"><span class="titlemenu">PUERTO DE INDIAS</span><span>6€</span></div>
+          </div>
+          <div class="col-lg-6 menu-item filter-drinks">
+            <div class="menu-content"><span class="titlemenu">SEAGRAM'S</span><span>8€</span></div>
+          </div>
+          <div class="col-lg-6 menu-item filter-drinks">
+            <div class="menu-content"><span class="titlemenu">BROCKMANS</span><span>8€</span></div>
+          </div>
           <div  class="col-lg-12 menu-top-margin menu-item filter-drinks">
             <h4>Rones</h4>
+          </div>
+          <div class="col-lg-6 menu-item filter-drinks">
+            <div class="menu-content"><span class="titlemenu">AREHUCAS</span><span>6€</span></div>
+          </div>
+          <div class="col-lg-6 menu-item filter-drinks">
+            <div class="menu-content"><span class="titlemenu">BACARDI</span><span>6€</span></div>
+          </div>
+          <div class="col-lg-6 menu-item filter-drinks">
+            <div class="menu-content"><span class="titlemenu">BARCELÓ</span><span>7€</span></div>
+          </div>
+          <div class="col-lg-6 menu-item filter-drinks">
+            <div class="menu-content"><span class="titlemenu">MATUSALEM</span><span>7€</span></div>
+          </div>
+          <div class="col-lg-6 menu-item filter-drinks">
+            <div class="menu-content"><span class="titlemenu">BRUGAL</span><span>7€</span></div>
+          </div>
+          <div class="col-lg-6 menu-item filter-drinks">
+            <div class="menu-content"><span class="titlemenu">HABANA 7</span><span>7€</span></div>
           </div>
           <div  class="col-lg-12 menu-top-margin menu-item filter-drinks">
             <h4>Whiskies</h4>
           </div>
+          <div class="col-lg-6 menu-item filter-drinks">
+            <div class="menu-content"><span class="titlemenu">JACK DANIEL'S</span><span>6€</span></div>
+          </div>
+          <div class="col-lg-6 menu-item filter-drinks">
+            <div class="menu-content"><span class="titlemenu">JOHNNIE WALKER</span><span>6€</span></div>
+          </div>          
           <div  class="col-lg-12 menu-top-margin menu-item filter-drinks">
             <h4>Vodkas</h4>
           </div>
+          <div class="col-lg-6 menu-item filter-drinks">
+            <div class="menu-content"><span class="titlemenu">ABSOLUT</span><span>6€</span></div>
+          </div>
+          <div class="col-lg-6 menu-item filter-drinks">
+            <div class="menu-content"><span class="titlemenu">SMIRNOFF</span><span>6€</span></div>
+          </div> 
+          <div class="col-lg-6 menu-item filter-drinks">
+            <div class="menu-content"><span class="titlemenu">BELVEDERE</span><span>6€</span></div>
+          </div> 
           <div  class="col-lg-12 menu-top-margin menu-item filter-drinks">
             <h4>Licores</h4>
+          </div>
+          <div class="col-lg-6 menu-item filter-drinks">
+            <div class="menu-content"><span class="titlemenu">BAILEYS</span><span>4,20€</span></div>
+          </div> 
+          <div class="col-lg-6 menu-item filter-drinks">
+            <div class="menu-content"><span class="titlemenu">CREMA DE ORUJO</span><span>4,50€</span></div>
+          </div> 
+          <div class="col-lg-6 menu-item filter-drinks">
+            <div class="menu-content"><span class="titlemenu">JÄGERMEISTER</span><span>2€</span></div>
+          </div> 
+          <div class="col-lg-6 menu-item filter-drinks">
+            <div class="menu-content"><span class="titlemenu">TÍA MARÍA</span><span>2€</span></div>
+          </div>
+          <div class="col-lg-6 menu-item filter-drinks">
+            <div class="menu-content"><span class="titlemenu">TEQUILA</span><span>3€</span></div>
+          </div>
+          <div class="col-lg-6 menu-item filter-drinks">
+            <div class="menu-content"><span class="titlemenu">LICOR DE MORA</span><span>2€</span></div>
+          </div> 
+          <div class="col-lg-6 menu-item filter-drinks">
+            <div class="menu-content"><span class="titlemenu">LICOR DE MARACUYÁ</span><span>2€</span></div>
+          </div>
+          <div class="col-lg-6 menu-item filter-drinks">
+            <div class="menu-content"><span class="titlemenu">AMARETO</span><span>2€</span></div>
+          </div>
+          <div class="col-lg-6 menu-item filter-drinks">
+            <div class="menu-content"><span class="titlemenu">ORUJO DE HIERBAS</span><span>2€</span></div>
+          </div>
+          <div class="col-lg-6 menu-item filter-drinks">
+            <div class="menu-content"><span class="titlemenu">RON MIEL</span><span>2€</span></div>
+          </div>
+          <div class="col-lg-6 menu-item filter-drinks">
+            <div class="menu-content"><span class="titlemenu">LIMONCELLO</span><span>2€</span></div>
+          </div>
+          <div class="col-lg-6 menu-item filter-drinks">
+            <div class="menu-content"><span class="titlemenu">COINTREAU</span><span>2€</span></div>
+          </div>
+          <div class="col-lg-6 menu-item filter-drinks">
+            <div class="menu-content"><span class="titlemenu">LIMOR 43</span><span>2€</span></div>
+          </div>
+          <div class="col-lg-6 menu-item filter-drinks">
+            <div class="menu-content"><span class="titlemenu">MARTINI</span><span>4,50€</span></div>
           </div>
           <div class="col-lg-6 menu-item filter-sweet">
             <div class="menu-content">

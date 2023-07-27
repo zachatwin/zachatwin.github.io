@@ -197,7 +197,7 @@
         }        
       }, true);
     }
-
+    document.getElementById('init-filter').click();
   });
 
   /**
