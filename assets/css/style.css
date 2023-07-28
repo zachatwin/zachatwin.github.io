@@ -563,6 +563,7 @@ section {
 .section-title.title-menu{
   display: none;
 } 
+/* TODO: se ocultan los precios hasta que la dirección se aclare */
 .menu-container .col-lg-6.menu-item .menu-content span:last-child{
   display: none;
 }
