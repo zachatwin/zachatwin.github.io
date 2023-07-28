@@ -563,6 +563,9 @@ section {
 .section-title.title-menu{
   display: none;
 } 
+.menu-container .col-lg-6.menu-item .menu-content span:last-child{
+  display: none;
+}
 .section-title.title-menu.titleshow{
   display: block !important;
 } 
