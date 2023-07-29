@@ -495,7 +495,9 @@ h6 {
   background: #ffb03b;
   color: #fff;
 }
-
+.menu-ingredients{
+  display:none;
+}
 @media (max-width: 768px) {
   #hero h2 {
     font-size: 28px;
