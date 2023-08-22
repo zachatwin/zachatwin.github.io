@@ -489,7 +489,11 @@ h6 {
   color: #fff;
   border: 2px solid #ffb03b;
 }
-
+video{
+  width:100%;
+  max-width:1200px;
+  }
+   
 #hero .btn-menu:hover,
 #hero .btn-book:hover {
   background: #ffb03b;
