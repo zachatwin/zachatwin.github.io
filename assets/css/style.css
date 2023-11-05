@@ -1633,3 +1633,38 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+
+.announce{
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.announce .announce_inner{
+  display:inline-block;  
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 5px 20px;
+  border-radius: 6px;
+}
+.announce .announce_inner span{
+  color:#ffb03b;
+}
+.announce .announce_inner span.icon-warning{
+  font-size: 2em ;
+}
+@media screen and (max-width:650px) {
+  @-ms-viewport {
+      width: device-width;
+  }
+  .announce{
+    width:85%
+  } 
+}
+@media screen and (max-width:1000px) {
+  @-ms-viewport {
+      width: device-width;
+  }
+  
+  #hero .carousel-content, .announce{
+    margin-top: 0;
+  }
+}
