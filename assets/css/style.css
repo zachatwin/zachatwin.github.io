@@ -1651,6 +1651,68 @@ section {
 .announce .announce_inner span.icon-warning{
   font-size: 2em ;
 }
+.menus .divs_iframe{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+ul li.self-lesson--pdf img{
+  width: 32px;
+}
+.pdfobject-container {
+  width: 100%;
+  height: 575px;
+}
+.menus .divs_iframe_inner{
+  flex-grow: 1;
+}
+.SELF-lessons-page-list {
+  display: block;
+  list-style: none inside;
+  margin: 2rem auto;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 600px;
+}
+
+.SELF-lesson-item {
+  display: inline-block;
+  box-sizing: border-box;
+  margin: 0 2% 2% 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.SELF-lesson-item>.SELF-lesson-item__link {
+  border-color: #0062ad;
+  color: #0062ad;
+  /*Este color debe ser el color de los enlaces en plantillas personalizadas*/
+  display: inline-block;
+  box-sizing: border-box;
+  border-width: 1px;
+  border-style: solid;
+  height: 50px;
+  width: 100%;
+  padding: 0 20px 0 52px;
+  vertical-align: middle;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: normal;
+  border-radius: 3px;
+  line-height: 50px;
+  background-color: #fff;
+  transition: .35s ease-in-out;
+  text-decoration: none;
+}
+
+.SELF-lesson-item>.SELF-lesson-item__link:hover {
+  color: #fff !important;
+  background-color: #0062ad;
+  /*Este color debe ser el color de los enlaces en plantillas personalizadas*/
+  transition: .35s ease-in-out !important;
+}
 @media screen and (max-width:650px) {
   @-ms-viewport {
       width: device-width;
@@ -1663,7 +1725,7 @@ section {
   @-ms-viewport {
       width: device-width;
   }
-  
+ 
   #hero .carousel-content, .announce{
     margin-top: 0;
   }
