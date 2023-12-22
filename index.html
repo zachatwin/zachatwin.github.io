@@ -68,29 +68,55 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero">
     <div class="hero-container">
-      <div id="heroCarousel">
+      <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
 
+        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
 
         <div class="carousel-inner" role="listbox">
 
           <!-- Slide 1 -->
           <div class="carousel-item active" style="background-image: url(assets/img/slide/slide-1.jpg?ww=1);">
             <div class="carousel-container">
-              <div class="carousel-content">                 
                 <div class="carousel-content">
-                  <!-- <div class="announce">                      
-                    <div class="announce_inner">                      
-                      <span class="icon-warning">⚠</span>
-                      <h3>El próximo Jueves día 9 permaneceremos <span>CERRADOS</span></h3>
-                      <h4>Disculpa las molestias, te esperamos el Viernes!!</h4>
-                    </div>
-                  </div> -->
-                  <a href=""><img src="assets/img/front_logo.png" alt="MunsooLogo" id="front_logo" class="img-fluid"></a>
-                </div>                 
-              </div>
+                <!-- <div class="announce">                      
+                  <div class="announce_inner">                      
+                    <span class="icon-warning">⚠</span>
+                    <h3>El próximo Jueves día 9 permaneceremos <span>CERRADOS</span></h3>
+                    <h4>Disculpa las molestias, te esperamos el Viernes!!</h4>
+                  </div>
+                </div> -->
+                <a href=""><img src="assets/img/front_logo.png" alt="MunsooLogo" id="front_logo" class="img-fluid"></a>
+              </div>                 
             </div>
           </div>
+          <!-- Slide 2 -->
+          <div class="carousel-item" style="background-image: url(assets/img/slide/slide-2.jpg?ww=1);">
+            <div class="carousel-container">
+              <div class="carousel-content">                 
+                <a href=""><img src="assets/img/front_logo.png" alt="MunsooLogo" id="front_logo" class="img-fluid"></a>
+              </div>                 
+            </div>
+          </div>
+          <!-- Slide 3 -->
+           <div class="carousel-item" style="background-image: url(assets/img/slide/slide-3.jpg?ww=1);">
+            <div class="carousel-container">
+              <div class="carousel-content">                 
+                <a href=""><img src="assets/img/front_logo.png" alt="MunsooLogo" id="front_logo" class="img-fluid"></a>
+              </div>                 
+            </div>
+          </div>
+          
+
         </div>
+        
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bi" aria-hidden="true"></span>
+        </a>
+
+        <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon bi" aria-hidden="true"></span>
+        </a>
+
        </div>
     </div>
     </section><!-- End Hero -->
@@ -137,6 +163,14 @@
       <div class="section-title">
         <h1>Menús</h1>
         <h2>Disfruta nuestros platos con la mejor <span>Compañia</span>...</h2> 
+        <br><br>     
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12 align-items-stretch video-box">
+              <img src="assets/img/menus/menu_navidad_23.jpg" class="img-fluid" alt="Menu Navidad">
+            </div>
+          </div>
+        </div>
         <br><br>     
         <div class="container-fluid">
           <div class="row">
@@ -896,20 +930,13 @@
     <!-- ======= Gallery Section ======= -->
     <section id="gallery" class="gallery">
       <div class="container-fluid">
-        <div class="section-title">
-          <h1>Galería</h1>
-          <video src="assets/videos/munsoo_1.mp4" controls poster="assets/img/munsoo_video_1_preview.png">
-            Tu navegador no admite el elemento <code>video</code>.
-          </video>
-        </div>
-        <!--
-        <div class="section-title">
-          <h2>Some photos from <span>Our Restaurant</span></h2>
-          <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
-        </div>
+        <h1>Galería</h1>
 
+        <div class="section-title">
+          <h2>Algunos momentos <span>Munsoo</span></h2>
+          <p>¿Te apetece unirte?</p>
+        </div>
         <div class="row g-0">
-
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
               <a href="assets/img/gallery/gallery-1.jpg" class="gallery-lightbox">
@@ -917,7 +944,6 @@
               </a>
             </div>
           </div>
-
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
               <a href="assets/img/gallery/gallery-2.jpg" class="gallery-lightbox">
@@ -925,7 +951,6 @@
               </a>
             </div>
           </div>
-
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
               <a href="assets/img/gallery/gallery-3.jpg" class="gallery-lightbox">
@@ -933,7 +958,6 @@
               </a>
             </div>
           </div>
-
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
               <a href="assets/img/gallery/gallery-4.jpg" class="gallery-lightbox">
@@ -941,7 +965,6 @@
               </a>
             </div>
           </div>
-
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
               <a href="assets/img/gallery/gallery-5.jpg" class="gallery-lightbox">
@@ -949,7 +972,6 @@
               </a>
             </div>
           </div>
-
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
               <a href="assets/img/gallery/gallery-6.jpg" class="gallery-lightbox">
@@ -957,7 +979,6 @@
               </a>
             </div>
           </div>
-
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
               <a href="assets/img/gallery/gallery-7.jpg" class="gallery-lightbox">
@@ -965,7 +986,6 @@
               </a>
             </div>
           </div>
-
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
               <a href="assets/img/gallery/gallery-8.jpg" class="gallery-lightbox">
@@ -973,9 +993,363 @@
               </a>
             </div>
           </div>
+          <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-9.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-9.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-10.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-10.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-11.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-11.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-12.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-12.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-13.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-13.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-14.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-14.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-15.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-15.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-16.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-16.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-17.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-17.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-18.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-18.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-19.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-19.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-20.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-20.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
 
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-21.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-21.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-22.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-22.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-23.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-23.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-24.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-24.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-25.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-25.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-26.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-26.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-27.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-27.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-28.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-28.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-29.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-29.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-30.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-30.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-31.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-31.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-32.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-32.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-33.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-33.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-34.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-34.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-35.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-35.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-36.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-36.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-37.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-37.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-38.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-38.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-39.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-39.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-40.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-40.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-41.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-41.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-42.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-42.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-43.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-43.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-44.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-44.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-45.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-45.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-46.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-46.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-47.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-47.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-48.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-48.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-49.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-49.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-50.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-50.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+ 
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-51.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-51.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-52.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-52.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-53.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-53.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-54.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-54.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-55.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-55.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
         </div>
--->
+        <div class="row g-0"> 
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-56.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-56.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-57.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-57.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+           
+        </div>
+        <div class="section-title">
+          <video src="assets/videos/munsoo_1.mp4" controls poster="assets/img/munsoo_video_1_preview.png">
+            Tu navegador no admite el elemento <code>video</code>.
+          </video>
+        </div>
       </div>
     </section><!-- End Gallery Section -->
  
