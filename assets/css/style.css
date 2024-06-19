@@ -109,6 +109,7 @@ h6 {
   transition: all 0.5s;
   padding: 10px 0;
   background: rgba(26, 24, 22, 0.85);
+  /* background: rgba(201,183,179, 0.85); --color arena*/ 
 }
 
 #header.header-transparent {
@@ -1013,8 +1014,14 @@ section {
 /*--------------------------------------------------------------
 # Events
 --------------------------------------------------------------*/
+.events_title
+{
+  background: url(../img/gallery/gallery-6.jpg) center center no-repeat;
+  background-size: cover;
+  position: relative;
+}
 .events {
-  background: url(../img/events-bg.jpg) center center no-repeat;
+  background: url(../img/gallery/gallery-6.jpg) center center no-repeat;
   background-size: cover;
   position: relative;
 }
