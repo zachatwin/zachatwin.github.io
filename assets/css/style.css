@@ -1011,9 +1011,15 @@ section {
   }
 }
 
+.contact{
+  background: url(../img/gallery/gallery-17.jpg) center center no-repeat;
+  background-size: cover;
+  position: relative;
+}
 /*--------------------------------------------------------------
 # Events
 --------------------------------------------------------------*/
+
 .events_title
 {
   background: url(../img/gallery/gallery-6.jpg) center center no-repeat;
